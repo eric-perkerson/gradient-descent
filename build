@@ -1,0 +1,2 @@
+as -o gd.o gd.s
+ld -o gd gd.o -lSystem -syslibroot `xcrun -sdk macosx --show-sdk-path`
